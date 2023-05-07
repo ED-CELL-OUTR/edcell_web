@@ -1,0 +1,110 @@
+@import url(./../../fonts/font.css);
+
+@media screen and (min-width: 320px){
+    .accordion{
+        background-color: #f4f4fc;
+        height: auto;
+        padding-bottom: 4rem;
+    }
+    .main{
+        width: 98%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1rem 0rem;
+        text-align: left;
+    }
+    .main p{
+        font-family: "gilroyLight";
+        font-size: 16px;
+        text-align: justify;
+    }
+    .sub-main{
+        margin: 1rem; 
+        display: flex;
+        flex-direction: row;
+
+    }
+    .collapse{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 1024px){
+    .main{
+        width: 95%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .sub-main{
+        width: 20%;  
+        margin: 0rem;
+    }
+}
+@media screen and (min-width: 1440px){
+    .main{
+        width: 70%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .sub-main{
+        margin-right: 4rem;
+        width: 50%;
+    }
+    
+    h1{
+        font-size: 2rem;
+    }
+    
+    .main p{
+        font-family: "gilroyLight";
+        font-size: 18px;
+    }
+    
+    .collapse{
+        padding-top: 1rem;
+    }
+
+}
+/* .accordion{
+    background-color: #f4f4fc;
+    height: auto;
+    padding-bottom: 4rem;
+}
+
+.main{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sub-main{
+    margin-right: 4rem;
+    width: 50%;
+    padding: 2rem;
+    
+}
+
+h1{
+    font-size: 2rem;
+}
+
+.main p{
+    font-family: "gilroyLight";
+    font-size: 20px;
+}
+
+.collapse{
+    padding-top: 1rem;
+} */

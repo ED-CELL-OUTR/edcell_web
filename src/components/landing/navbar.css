@@ -1,0 +1,84 @@
+@import url(./../../fonts/font.css);
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .link {
+    padding: 8px 8px 8px 0px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    text-align: left;
+    margin-left: 1rem;
+  }
+  
+  .link:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-width: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    .landing-nav{
+      padding-bottom: 4rem;
+    }
+  }
+.logo{
+  position: relative;
+  top: -1.5rem;
+}
+.landing-nav button{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    color: black;
+    right: 100px;
+    /* top: 30px; */
+    margin: 1.5rem 0rem;
+    height: 42px;
+    width: 42px;
+    line-height: 42px;
+    display: block;
+    position: relative;
+    background-color: white;
+    border: none;
+}
+.landing-nav button:hover{
+  color: #f15c28;
+}
+.landing-nav{
+    height: 6rem;
+    width: 100%;
+    max-width: 1300px;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: fixed; */
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 1rem;
+  }
