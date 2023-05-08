@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import insta from "./../../img/insta.svg";
 import ld from "./../../img/linkd.svg";
 import twitter from "./../../img/twitter.svg";
+import fb from "./../../img/fb1616.svg";
 
 const Footer = () => {
   return (
@@ -22,6 +23,9 @@ const Footer = () => {
               target={"blank"}
             >
               <img src={ld} alt="" />
+            </a>
+            <a href="https://www.facebook.com/Ecellcetb/" target={"blank"}>
+              <img src={fb} alt="" />
             </a>
             <a href="/" target={"blank"}>
               <img src={twitter} alt="" />
@@ -56,8 +60,10 @@ const Footer = () => {
         <div className="sub-main">
           <h1>Get In Touch</h1>
           <div className="info">
-            <p>+91-9583785500</p>
-            <p>OUTR, Ghatikia, Bhubaneswar pcr@ecell.org.in</p>
+            <p>
+              +91-9583785500 <br />
+              OUTR, Ghatikia, Bhubaneswar cetbecell@gmail.com
+            </p>
           </div>
         </div>
       </div>
