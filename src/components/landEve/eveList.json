@@ -9,22 +9,8 @@
   {
     "id": 2,
     "month": "Apr",
-    "date": "*",
-    "eventTitle": "Case Acer 2.0",
-    "time": "*"
-  },
-  {
-    "id": 3,
-    "month": "Apr",
-    "date": "*",
-    "eventTitle": "Case Acer 2.0",
-    "time": "*"
-  },
-  {
-    "id": 4,
-    "month": "Apr",
-    "date": "*",
-    "eventTitle": "Case Acer 2.0",
-    "time": "*"
+    "date": "3 Jul-4 Jul",
+    "eventTitle": "Stocks Odyssey",
+    "time": "Market Hours"
   }
 ]
